@@ -1439,7 +1439,7 @@ kind-of@^3.0.2:
   dependencies:
     is-buffer "^1.0.2"
 
-lodash.throttle@^4.1.1:
+lodash.throttle@4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
 
@@ -1653,7 +1653,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.6.0:
+prop-types@15.6.0:
   version "15.6.0"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.0.tgz#ceaf083022fc46b4a35f69e13ef75aed0d639856"
   dependencies:
@@ -1685,9 +1685,10 @@ rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-dom-animated@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/react-dom-animated/-/react-dom-animated-1.0.3.tgz#adf9877045c23e40f7a7ef7dbc7381abe1dba02c"
+react-dom-animated@viewsdx/react-dom-animated:
+  version "1.0.6"
+  uid "4f75ffb515245d16d17663791e010ef684527ffe"
+  resolved "https://codeload.github.com/viewsdx/react-dom-animated/tar.gz/4f75ffb515245d16d17663791e010ef684527ffe"
   dependencies:
     animated "^0.2.0"
     only-react-css-property-operations "^1.0.0"
@@ -1954,8 +1955,8 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
 
 ua-parser-js@^0.7.9:
-  version "0.7.12"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.12.tgz#04c81a99bdd5dc52263ea29d24c6bf8d4818a4bb"
+  version "0.7.31"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.31.tgz#649a656b191dffab4f21d5e053e27ca17cbff5c6"
 
 uid-number@^0.0.6:
   version "0.0.6"
